@@ -1,13 +1,14 @@
 # Bicycle-pedestrian-automatic-warning-system
 
 🚲 자전거-보행자 자동 경고 시스템
+<img width="327" height="251" alt="스크린샷 2025-11-28 오후 9 59 25" src="https://github.com/user-attachments/assets/3e99690d-4506-4a1a-874d-24d3d016ed65" />
 
 RealSense D455 + 인공지능 기반 보행자 위험 감지 솔루션
 
 프로젝트 기간: 2024.03 ~ 2024.06
-사용 기술: YOLOv5, MTCNN, Intel RealSense, Python, Raspberry Pi
+사용 기술: YOLOv5, MTCNN, Intel RealSense, Python, Raspberry Pi 5
 
-⸻
+---
 
 👥 팀 구성 및 역할
 
@@ -15,7 +16,7 @@ RealSense D455 + 인공지능 기반 보행자 위험 감지 솔루션
 김기환 (팀장) AI·임베디드 통합 개발 프로젝트 전체 구조 설계RealSense + YOLO + MTCNN 통합 모델 개발보행자 거리 측정 알고리즘 구현위험 판단 알고리즘 개발Raspberry Pi GPIO(부저·램프) 제어 펌웨어 구성테스트 시나리오 설계 및 개선 작업
 팀원 데이터 수집 & 실험 보조 자전거 주행 테스트촬영 환경 세팅 및 라벨링 도움
 
-⸻
+---
 
 📘 프로젝트 개요
 
@@ -38,7 +39,7 @@ RealSense D455 + 인공지능 기반 보행자 위험 감지 솔루션
 → 본 시스템은 MTCNN 기반 얼굴 검출로 “보행자가 뒤를 보고 있는지”를 파악하고,
 등 뒤 상황이면 위험 판단을 강화한다.
 
-⸻
+---
 
 2. 거리 오판에 의한 대응 지연
 
@@ -174,7 +175,7 @@ set_lamp(True)
 
 🧪 테스트 환경
 • Intel RealSense D455
-• Raspberry Pi 4 / 5
+• Raspberry Pi 5
 • Python 3.10
 • PyTorch 2.1
 • YOLOv5s
