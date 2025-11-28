@@ -1,0 +1,26 @@
+# ---------- Core ----------
+numpy==1.26.4
+opencv-python==4.9.0.80
+
+# ---------- PyTorch (CPU/GPU 자동 선택) ----------
+torch==2.1.0
+torchvision==0.16.0
+
+# ---------- YOLOv5 ----------
+# YOLOv5는 torch.hub 사용 → 별도 설치 필요 없음
+# 단, core dependency는 아래 ultralytics 패키지가 필요
+ultralytics==8.0.196
+
+# ---------- MTCNN (face detection) ----------
+facenet-pytorch==2.5.3
+
+# ---------- RealSense ----------
+pyrealsense2==2.54.2.5684
+
+# ---------- Raspberry Pi GPIO ----------
+RPi.GPIO==0.7.1a4
+
+# ---------- 기타 ----------
+protobuf==4.25.1
+Pillow==10.2.0
+scipy==1.11.4
