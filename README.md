@@ -1,5 +1,4 @@
-# 🚲 Bicycle-pedestrian-automatic-warning-system  
-자전거–보행자 자동 경고 시스템
+# 🚲 자전거–보행자 자동 경고 시스템 
 
 > Intel RealSense D455 + YOLOv5 + MTCNN 기반 보행자 위험 감지 솔루션  
 > 보행자-자전거 혼합도로에서 **“뒤돌아보지 못하는 보행자”** 를 위한 능동 경고 시스템
